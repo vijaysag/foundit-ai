@@ -1,0 +1,21 @@
+Testing Backend API...
+
+1. Registering User...
+Register Status: 200
+Register Response: {"name":"Test User","email":"test1775146590@example.com","role":"user","_id":"34ad5239-505c-4827-9644-57a61f5fe107"}
+
+2. Logging in User...
+Login Status: 200
+Login Response: {"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MTc3NTE0NjU5MEBleGFtcGxlLmNvbSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNzc1MjMyOTk1fQ.q6x3_vnERh1nrL8il36ZEaykohF-9GadAd-n-VBMZnI","token_type":"bearer","role":"user"}
+
+3. Testing Report Lost Item...
+Report Lost Status: 200
+Report Lost Response: {"message":"Lost item reported","item_id":"ab4806a4-2d2f-486d-b25c-aaec38241b05"}
+
+4. Testing Upload Found Item...
+Upload Found Status: 200
+Upload Found Response: {"message":"Found item reported","item_id":"13e5a4c6-671f-4ed3-bf74-c978c12f8a35","analysis":{"labels":[],"color":"#fe0000","brand":""}}
+
+5. Testing Get Matches...
+Get Matches Status: 200
+Get Matches Response: []

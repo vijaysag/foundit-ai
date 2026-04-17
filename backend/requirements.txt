@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+motor
+pymongo
+python-multipart
+sentence-transformers
+pillow
+python-jose[cryptography]
+passlib[bcrypt]
+python-dotenv
+ultralytics
+qrcode
+email-validator
+pydantic[email]
+numpy
+opencv-python
+run this 
